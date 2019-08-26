@@ -1,2 +1,6 @@
 # Kubernetes-hello-world
 Spring-Cloud-Kubernetes DiscoveryClient功能测试
+
+要想获取services列表, 还需要对相应的ServiceAccount添加部分权限
+"configmaps", "pods", "services", "endpoints", "secrets"
+"get", "list", "watch"
